@@ -1,0 +1,315 @@
+.container {
+    width: var(--container-widht-lg);
+    margin: 0 auto;
+    
+    
+}
+.info {
+    display: flex;
+width: 1000px;
+padding: 48px;
+margin-left: 160px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 12px;
+background: var(--secondary-50, #F6F6F7);
+margin-bottom: 48px;
+margin-top: 32px;
+}
+.info-cont {
+    display: flex;
+width: 668px;
+flex-direction: column;
+align-items: center;
+gap: 24px;
+}
+.info img {
+    width: 64px;
+    height: 64px;
+    border-radius: 80px;
+    -webkit-border-radius: 80px;
+    -moz-border-radius: 80px;
+    -ms-border-radius: 80px;
+    -o-border-radius: 80px;
+    margin-left: 50px;
+}
+.info p {
+    align-self: stretch;
+    color: var(--secondary-600, #3B3C4A);
+text-align: center;
+
+/* Body/b3/Regular */
+font-family: Work Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 144.444% */
+}
+.info ul li a {
+    width: 16px;
+height: 16px;
+color: white;
+}
+.info ul li i {
+    display: flex; 
+padding: 8px;
+justify-content: center;
+align-items: center;
+gap: 8px;
+border-radius: 6px;
+background: var(--secondary-500, #696A75);
+
+}
+
+           /* post  */
+
+
+           .container-post h1 {
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 28px;
+            margin-bottom: 30px;
+            position: relative;
+            margin-top: 48px;
+            
+        }
+        
+        .container-post .cards {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            justify-content: center;
+            gap: 1.5rem;
+            margin-bottom: 100px;
+            
+        
+        }
+        .container-post .card {
+            display: flex;
+        width: 392px;
+        padding: 16px;
+        flex-direction: column;
+        
+        gap: 16px;
+        border-radius: 12px;
+        border: 1px solid var(--secondary-100, #E8E8EA);
+        background: var(--White, #FFF);
+        position: relative;
+        }
+        .container-post h4 {  
+            padding: 4px 10px;
+            border-radius: 6px;
+            background: rgba(75, 107, 251, 0.05);
+        color: #4B6BFB;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20px;
+        width: fit-content;
+        
+        
+        
+        }
+        .card-img{
+            display: flex;
+            justify-content: start;
+            align-items: center;
+           
+        }
+        
+        .card-img img {
+            width: 36px;
+        height: 36px;
+        border-radius: 28px;
+        background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+        
+        
+        }
+        .card-img a {
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 24px;
+            color: #97989F;
+            padding-left: 10px;
+            
+        }
+        .card-img p {
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            color: #97989F;
+            padding-left: 15px;
+            
+        }
+        
+        /* dark mode  */
+
+        body.darkmode .info {
+            background:#52525B;
+        }
+        body.darkmode .info .text h1 {
+            color: white;
+        }
+        body.darkmode .info .text p {
+            color: #BABABF;
+        }
+        body.darkmode .info p {
+            color: #BABABF;
+        }
+        body.darkmode .info ul li a {
+            background: #696A75;
+        }
+
+
+
+
+
+  /* footer  */
+
+footer {
+    background: #E8E8EA;
+    padding-top: 5rem;
+    font-size: 0.9rem;
+    margin-bottom: 182px;
+    padding-bottom: 3px;
+}
+.footer-container {
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    gap: 4rem;
+}
+.footer-container > div h4 {
+    margin-bottom: 1.2rem;
+}
+.footer-1 h1 {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    margin-bottom: 12px;
+    
+ 
+}
+.footer-1 p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 24px;
+    
+}
+.footer-1 span {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    display: inline;
+    
+}
+.footer-1 span p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    display: inline;
+    
+}
+footer ul li {
+    margin-bottom:  0.7rem;
+}
+footer ul li a:hover {
+    text-decoration: underline;
+}
+.footer-social {
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    gap: 0.5rem;
+    font-size: 1.2rem;
+    margin-top: 2rem;
+}
+.footer-copyright {
+    text-align: center;
+    margin-top: 4rem;
+    padding: 1.2rem 0;
+    border-top: 1px solid var(--color-bg2);
+}
+.footer-2 ul li a {
+    color: #3B3C4A;
+}
+.footer-2 h4 {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+
+}
+.footer-3 h4 {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+
+}
+.footer-2 .nav-menu {
+  
+   display: grid;
+   grid-template-columns: 1fr;
+   gap: 8px;
+}
+
+.footer-3 .nav-menu {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 8px;
+}
+.footer-4 {
+    width: 380px;
+    height:280px;
+    background-color: #fff;
+    border-radius:12px ;
+    position: relative;
+    top: 25px;
+   
+    
+}
+.footer-4 h1 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 30px;
+    line-height:40px;
+    color: #181A2A;
+}
+.footer-4 p {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    color: #696A75;
+}
+.footer-4 input {
+   
+    width: 320px;
+    height: 40px;
+    margin-left: 35px;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+    border: 1px solid #DCDDDF ;
+    position: absolute;
+    bottom: 120px;
+}
+.footer-4 button {
+   
+padding: 10px 120px;
+justify-content: center;
+align-items: center;
+gap: 12px;
+align-self: stretch;
+border-radius: 6px;
+background: var(--theme-1-primary, #4B6BFB);
+color: #fff;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+position: absolute;
+bottom: 70px;
+left: 40px;
+    
+
+}
